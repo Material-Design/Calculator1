@@ -34,6 +34,7 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.SuspendLayout
         '
         'Label1
@@ -57,34 +58,34 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = true
-        Me.Label3.Location = New System.Drawing.Point(126, 51)
+        Me.Label3.Location = New System.Drawing.Point(107, 53)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(0, 13)
         Me.Label3.TabIndex = 2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(16, 154)
+        Me.Button1.Location = New System.Drawing.Point(12, 154)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 38)
+        Me.Button1.Size = New System.Drawing.Size(56, 26)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "Add"
         Me.Button1.UseVisualStyleBackColor = true
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(16, 198)
+        Me.Button2.Location = New System.Drawing.Point(12, 186)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(239, 38)
+        Me.Button2.Size = New System.Drawing.Size(246, 32)
         Me.Button2.TabIndex = 4
         Me.Button2.Text = "Clear"
         Me.Button2.UseVisualStyleBackColor = true
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(97, 154)
+        Me.Button3.Location = New System.Drawing.Point(74, 154)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 38)
+        Me.Button3.Size = New System.Drawing.Size(58, 26)
         Me.Button3.TabIndex = 5
         Me.Button3.Text = "Subtract"
         Me.Button3.UseVisualStyleBackColor = true
@@ -135,19 +136,29 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(180, 154)
+        Me.Button4.Location = New System.Drawing.Point(138, 154)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 38)
+        Me.Button4.Size = New System.Drawing.Size(58, 26)
         Me.Button4.TabIndex = 11
         Me.Button4.Text = "Multiply"
         Me.Button4.UseVisualStyleBackColor = true
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(202, 154)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(56, 26)
+        Me.Button5.TabIndex = 12
+        Me.Button5.Text = "Divide"
+        Me.Button5.UseVisualStyleBackColor = true
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.ClientSize = New System.Drawing.Size(267, 246)
+        Me.ClientSize = New System.Drawing.Size(267, 226)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
@@ -180,4 +191,5 @@ End Sub
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
 End Class
