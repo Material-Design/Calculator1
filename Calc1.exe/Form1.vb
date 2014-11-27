@@ -40,7 +40,7 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        ' check if values are clear already, if they are show a popup else clear them
+        'check if values are clear already, if they are show a popup else clear them
         If TextBox2.Text = "" Or TextBox3.Text = "" Or Label3.Text = "" Then
             MsgBox("Nothing to clear")
         Else
