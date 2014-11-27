@@ -9,10 +9,10 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("Calc1.exe")>
-<Assembly: AssemblyDescription("")>
+<Assembly: AssemblyDescription("A simple calculator created in .net")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Calc1.exe")>
-<Assembly: AssemblyCopyright("Copyright ©  2014")>
+<Assembly: AssemblyProduct("Calculator")>
+<Assembly: AssemblyCopyright("Copyright Material Design©  2014")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")>
-<Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: AssemblyVersion("1.0.0.5")>
+<Assembly: AssemblyFileVersion("1.0.0.5")>
