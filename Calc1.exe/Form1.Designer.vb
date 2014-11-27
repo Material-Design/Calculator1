@@ -33,6 +33,7 @@ Partial Class Form1
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.SuspendLayout
         '
         'Label1
@@ -72,9 +73,9 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(178, 154)
+        Me.Button2.Location = New System.Drawing.Point(16, 198)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 38)
+        Me.Button2.Size = New System.Drawing.Size(239, 38)
         Me.Button2.TabIndex = 4
         Me.Button2.Text = "Clear"
         Me.Button2.UseVisualStyleBackColor = true
@@ -85,7 +86,7 @@ Partial Class Form1
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 38)
         Me.Button3.TabIndex = 5
-        Me.Button3.Text = "Sub"
+        Me.Button3.Text = "Subtract"
         Me.Button3.UseVisualStyleBackColor = true
         '
         'TextBox1
@@ -99,6 +100,7 @@ Partial Class Form1
         'TextBox2
         '
         Me.TextBox2.Location = New System.Drawing.Point(84, 30)
+        Me.TextBox2.MaxLength = 10
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
         Me.TextBox2.TabIndex = 7
@@ -106,6 +108,7 @@ Partial Class Form1
         'TextBox3
         '
         Me.TextBox3.Location = New System.Drawing.Point(84, 67)
+        Me.TextBox3.MaxLength = 10
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
         Me.TextBox3.TabIndex = 8
@@ -126,16 +129,26 @@ Partial Class Form1
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.Label5.Location = New System.Drawing.Point(14, 9)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(100, 12)
+        Me.Label5.Size = New System.Drawing.Size(103, 12)
         Me.Label5.TabIndex = 10
-        Me.Label5.Text = "Github Material-Design"
+        Me.Label5.Text = "Github: Material-Design"
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(180, 154)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 38)
+        Me.Button4.TabIndex = 11
+        Me.Button4.Text = "Multiply"
+        Me.Button4.UseVisualStyleBackColor = true
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.ClientSize = New System.Drawing.Size(267, 212)
+        Me.ClientSize = New System.Drawing.Size(267, 246)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.TextBox3)
@@ -166,4 +179,5 @@ End Sub
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
+    Friend WithEvents Button4 As Button
 End Class
